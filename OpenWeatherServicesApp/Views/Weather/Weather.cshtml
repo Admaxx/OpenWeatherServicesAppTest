@@ -1,0 +1,50 @@
+﻿@model OpenWeatherServicesApp.Services.Models.Weather.GetWeatherInformations
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.Label("Temperatura")
+            </th>
+            <th>
+                @Html.Label("Wilgotność")
+            </th>
+            <th>
+                @Html.Label("Prędkość wiatru")
+            </th>
+            <th>
+                @Html.Label("Kierunek wiatru")
+            </th>
+            <th>
+                @Html.Label("Pogoda")
+            </th>
+            <th>
+                @Html.Label("Symbol")
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>
+                    @Html.Label(Model.Temp)
+                </td>
+                <td>
+                    @Html.Label(Model.Humidity)
+                </td>
+                <td>
+                    @Html.Label(Model.WindSpeed)
+                </td>
+                <td>
+                    @Html.Label(Model.WindDeg)
+                </td>
+                <td>
+                    @Html.Label(Model.Description)
+                </td>
+                <td>
+                    <!--<img alt="icon" src={http://openweathermap.org/img/w/${Model.Icon}.png} width="120" height="100" /> -->
+                    <img src=$"http://openweathermap.org/img/w/04n.png" alt="NotWorkingImg">
+                    @Html.Label(Model.Icon)
+                </td>
+            </tr>
+    </tbody>
+</table>
