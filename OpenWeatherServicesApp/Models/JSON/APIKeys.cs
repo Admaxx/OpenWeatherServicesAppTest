@@ -1,4 +1,4 @@
-﻿namespace OpenWeatherServicesApp.Services.JSONOptions
+﻿namespace OpenWeatherServicesApp.Models.JsonOptions
 {
     public class APIKeys
     {

@@ -1,4 +1,5 @@
-using OpenWeatherServicesApp.Services.JSONOptions;
+using OpenWeatherServicesApp.Models.JsonOptions;
+using OpenWeatherServicesApp.Services.JSON;
 using OpenWeatherServicesApp.Services.Translator;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ builder.Services.Configure<APIKeys>(
 
 builder.Services.AddScoped<IWeatherDescription, WeatherDescription>();
 builder.Services.AddScoped<IWindDirection, WindDirection>();
+builder.Services.AddScoped<IGetFromJSON, GetFromJSON>();
+builder.Services.AddScoped<IUnitSystem, UnitSystem>();
 
 var app = builder.Build();
 
@@ -33,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "CheckWeatherRoute",
-    pattern: "{controller=Weather}/{action=getCity}/{id?}");
+    pattern: "{controller=Weather}/{action=Weather}/{id?}");
 
 app.Run();
