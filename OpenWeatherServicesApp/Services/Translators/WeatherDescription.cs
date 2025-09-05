@@ -13,6 +13,7 @@
 
                 {"scattered clouds", "rozproszone chmury" },
                 {"broken clouds", "rozbite chmury" },
+                {"overcast clouds", "zachmurzone niebo" },
 
                 {"shower rain", "rzęsisty deszcz" },
                 {"thunderstorm", "burza" },

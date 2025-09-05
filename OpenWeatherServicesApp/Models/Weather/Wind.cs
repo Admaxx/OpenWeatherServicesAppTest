@@ -1,4 +1,4 @@
-﻿namespace OpenWeatherServicesApp.Services.Models.Weather
+﻿namespace OpenWeatherServicesApp.Models.Weather
 {
     public class Wind
     {
