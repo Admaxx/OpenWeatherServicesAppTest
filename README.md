@@ -7,5 +7,7 @@ Using OpenWeatherApi.
 TODO:
 
 !Important refactor,
-User choosing city (Polish),
+Automatic refresh after changing unit system,
+Add db for unit system symbols,
+Add "better" styles
 ....
