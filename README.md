@@ -10,4 +10,3 @@ TODO:
 Automatic refresh after changing unit system,
 Add db for unit system symbols,
 Add "better" styles
-....
