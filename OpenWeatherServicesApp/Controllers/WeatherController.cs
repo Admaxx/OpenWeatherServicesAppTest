@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using OpenWeatherServicesApp.Models.JSON;
 using OpenWeatherServicesApp.Models.JsonOptions;
 using OpenWeatherServicesApp.Models.Weather;
 using OpenWeatherServicesApp.Services.JSON;
@@ -53,13 +54,13 @@ namespace OpenWeatherServicesApp.Controllers
                 })
             });
         }
-        public async Task<IActionResult> JsonObjectReturn([FromBody] Coord coords)
+        public async Task<IActionResult> JsonObjectReturn([FromBody] weatherRequestModel model)
         {
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://api.openweathermap.org");
-                var response = await client.GetAsync($"/data/2.5/weather?lat={coords.lat}&lon={coords.lon}&appid={_apiKeys.WheatherApiKey}&units=metric");
-                Console.WriteLine(response);
+                var response = await client.GetAsync($"/data/2.5/weather?lat={model.coord.lat}&lon={model.coord.lon}&appid={_apiKeys.WheatherApiKey}&units={model.unitSystem}");
+                
                 response.EnsureSuccessStatusCode();
 
                 var stringResult = await response.Content.ReadAsStringAsync();

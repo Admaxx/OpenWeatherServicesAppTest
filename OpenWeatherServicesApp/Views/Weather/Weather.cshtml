@@ -73,14 +73,19 @@
 
     $("#citySelect").on("select2:select", function (e) {
     var data = e.params.data;
-
+        var unitMetric = $("#systemChoose").select2('data')[0];
                 $.ajax({
                     url: '/Weather/JsonObjectReturn',   
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({
-                            lat: data.lat,
-                            lon: data.lon
+
+                             unitSystem: unitMetric.text,
+                                coord: {                  
+                                lat: data.lat,
+                                lon: data.lon
+                                }
+
                         }),     
                     success: function (city) {
                 $("#cityTable").show();
@@ -123,38 +128,5 @@ $("#systemChoose").select2({
     minimumInputLength: 0
 });
 
-    $("#systemChoose").on("select2:select", function (e) {
-    var data = e.params.data;
-
-                $.ajax({
-                    url: '/Weather/JsonObjectReturn',   
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify({
-                            lat: data.lat,
-                            lon: data.lon
-                        }),     
-                    success: function (city) {
-                $("#cityTable").show();
-                $("#cityTable tbody").html(`
-                    <tr>
-                        <td>${city.temp}</td>
-                        <td>${city.humidity}</td>
-                        <td>${city.windSpeed}</td>
-                        <td>${city.windDeg}</td>
-                        <td>${city.description}</td>
-                    </tr>
-                `);
-                $("#iconInfo p").html(`
-                    <tr>
-                    <td><img src="https://openweathermap.org/img/wn/${city.icon}.png" alt="${city.icon}" style="width:104px;height:142px;"></td>
-                    </tr>
-                `);
-            },
-                    error: function(err) {
-                        console.error(err);
-                    }
-    });
-});
     </script>
 }
