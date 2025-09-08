@@ -4,7 +4,6 @@
     let unitMetric = $("#systemChoose").select2('data')[0];
     let setUnitSystem;
 
-
     if (unitMetric == null)
         setUnitSystem = "metric";
 
@@ -32,6 +31,7 @@
                         <td>${city.windSpeed}</td>
                         <td>${city.windDeg}</td>
                         <td>${city.description}</td>
+                        <td>${city.dayOfWeek}</td>
                         
                     </tr>
                 `);

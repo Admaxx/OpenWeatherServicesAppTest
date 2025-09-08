@@ -88,11 +88,15 @@ $("#citySelect").on("select2:select", function (e) {
                     <td><h2>${city.name}, ${city.temp}</h2></td>
                     </tr>
                 `);
-
             $("#refreshButton").prop('disabled', false);
+            $("#refreshButton").css('background-color', 'green');
         },
         error: function (err) {
             console.error(err);
         }
     });
+});
+$('#citySelect').on('select2:clear', function (e) {
+    $("#refreshButton").prop('disabled', true);
+    $("#refreshButton").css('background-color', 'grey');
 });

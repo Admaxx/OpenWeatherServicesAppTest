@@ -109,8 +109,7 @@ namespace OpenWeatherServicesApp.Controllers
                             description = _getWeatherDesc == string.Empty ? rawWeather!.weather[0].description : Convert.ToString(_getWeatherDesc),
                             icon = rawWeather.weather[0].icon,
                             name = rawWeather.name,
-                            country = rawWeather.sys.country,
-                            dayOfWeek = _daysOfWeek.getDayOfWeekPolish().GetValueOrDefault(Convert.ToInt32(DateTime.Now.DayOfWeek)),
+                            country = rawWeather.sys.country
                         });
                 }
             }
