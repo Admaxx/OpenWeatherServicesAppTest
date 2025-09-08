@@ -1,5 +1,5 @@
-﻿.btn {
-    background-color: Green;
+﻿#refreshButton {
+    background-color: green;
     border: none;
     color: white;
     padding: 12px 16px;
@@ -8,7 +8,7 @@
     opacity: 0.6;
 }
 
-    .btn:hover {
-        background-color: Green;
+    #refreshButton:hover {
+        background-color: green;
         opacity: 1;
     }
