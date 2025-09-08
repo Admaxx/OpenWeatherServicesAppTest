@@ -1,20 +1,20 @@
 ﻿using CityJSONExample.Models;
 using Newtonsoft.Json;
-using OpenWeatherServicesApp.Models.Weather;
-
 
 namespace OpenWeatherServicesApp.Services.JSON
 {
     public class GetFromJSON : IGetFromJSON
     {
         private readonly string _filePath;
+        private readonly mainClass main;
 
         public GetFromJSON(IWebHostEnvironment env)
         {
-            _filePath = Path.Combine(env.ContentRootPath, "App_Data", "city.list.json");
+            main = new mainClass();
+            _filePath = Path.Combine(env.ContentRootPath, main.citiesListPath);
         }
 
-        public IEnumerable<CityDto> Search(string? term, int skip, int take)
+        public IEnumerable<CityDto> Search(string? term, int skip, int take, string country = "")
         {
             using var fs = File.OpenRead(_filePath);
             using var sr = new StreamReader(fs);
@@ -31,11 +31,9 @@ namespace OpenWeatherServicesApp.Services.JSON
 
                     if ((string.IsNullOrEmpty(term) ||
                         city!.name.Contains(term, StringComparison.OrdinalIgnoreCase))
-                        && city.country == "PL")
+                        && city.country == country)
                     {
-                        if (count++ < skip) continue;
                         yield return city!;
-                        if (--take == 0) yield break;
                     }
                 }
             }
