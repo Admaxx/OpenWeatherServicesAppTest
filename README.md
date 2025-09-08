@@ -7,6 +7,6 @@ Using OpenWeatherApi.
 TODO:
 
 !Important refactor,
-Add "better" styles,
-Add localizations view on map*
-....
+Automatic refresh after changing unit system,
+Add db for unit system symbols,
+Add "better" styles
