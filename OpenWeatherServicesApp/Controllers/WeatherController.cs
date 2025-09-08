@@ -110,8 +110,8 @@ namespace OpenWeatherServicesApp.Controllers
                             icon = rawWeather.weather[0].icon,
                             name = rawWeather.name,
                             country = rawWeather.sys.country,
-                            dayOfWeek = _daysOfWeek.getDayOfWeekPolish().GetValueOrDefault(Convert.ToInt32(DateTime.Now.DayOfWeek))
-                    });
+                            dayOfWeek = _daysOfWeek.getDayOfWeekPolish().GetValueOrDefault(Convert.ToInt32(DateTime.Now.DayOfWeek)),
+                        });
                 }
             }
             return 
