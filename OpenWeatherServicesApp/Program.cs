@@ -1,6 +1,8 @@
+using OpenWeatherServicesApp.DBModels;
 using OpenWeatherServicesApp.Models.JsonOptions;
+using OpenWeatherServicesApp.Services;
 using OpenWeatherServicesApp.Services.JSON;
-using OpenWeatherServicesApp.Services.Translator;
+using OpenWeatherServicesApp.Services.Translators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +13,12 @@ builder.Services.Configure<APIKeys>(
             builder.Configuration.GetSection("APIKeys")
             );
 
-builder.Services.AddScoped<IWeatherDescription, WeatherDescription>();
+
+builder.Services.AddScoped<WeatherDBContext>();
+builder.Services.AddScoped<mainClass>();
 builder.Services.AddScoped<IWindDirection, WindDirection>();
 builder.Services.AddScoped<IGetFromJSON, GetFromJSON>();
-builder.Services.AddScoped<IUnitSystem, UnitSystem>();
+builder.Services.AddScoped<IDaysOfWeek, DaysOfWeek>();
 
 var app = builder.Build();
 

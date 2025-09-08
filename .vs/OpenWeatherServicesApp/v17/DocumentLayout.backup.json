@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\services\\translators\\unitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\services\\translators\\unitsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\refreshbuttonevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\refreshbuttonevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\cityselectevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\cityselectevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\views\\weather\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\views\\weather\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\countrychooseevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\countrychooseevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\models\\json\\weatherrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\models\\json\\weatherrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\models\\weather\\coord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\models\\weather\\coord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\models\\weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\models\\weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,20 +32,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherController.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAWwDsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T07:13:25.556Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -72,80 +50,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitSystem.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Services\\Translators\\UnitSystem.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Services\\Translators\\UnitSystem.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Services\\Translators\\UnitSystem.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Services\\Translators\\UnitSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T09:42:26.493Z",
+              "DocumentIndex": 1,
+              "Title": "citySelectEvents.js",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
+              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-08T18:24:11.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Weather.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T20:05:32.134Z",
+              "DocumentIndex": 0,
+              "Title": "refreshButtonEvents.js",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
+              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-08T18:16:14.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "weatherRequestModel.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\JSON\\weatherRequestModel.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Models\\JSON\\weatherRequestModel.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\JSON\\weatherRequestModel.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Models\\JSON\\weatherRequestModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T08:59:53.055Z",
+              "Title": "countryChooseEvents.js",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\countryChooseEvents.js",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\countryChooseEvents.js",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\countryChooseEvents.js",
+              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\countryChooseEvents.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-08T18:14:54.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Coord.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\Weather\\Coord.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Models\\Weather\\Coord.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\Weather\\Coord.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Models\\Weather\\Coord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwHAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T08:44:38.029Z",
+              "WhenOpened": "2025-09-08T17:43:50.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetWeather.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\Weather\\GetWeather.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Models\\Weather\\GetWeather.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Models\\Weather\\GetWeather.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Models\\Weather\\GetWeather.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T20:14:38.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Program.cs",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Program.cs",
-              "RelativeToolTip": "OpenWeatherServicesApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T19:28:18.717Z",
+              "DocumentIndex": 2,
+              "Title": "Weather.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
+              "RelativeToolTip": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T17:29:55.131Z",
               "EditorCaption": ""
             }
           ]

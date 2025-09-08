@@ -1,7 +1,7 @@
-﻿namespace OpenWeatherServicesApp.Services.Translator
+﻿namespace OpenWeatherServicesApp.Services.Translators
 {
     public interface IWindDirection
     {
-        Dictionary<Func<int, bool>, string> _directions();
+        public Dictionary<Func<int, bool>, string> _directions();
     }
 }
