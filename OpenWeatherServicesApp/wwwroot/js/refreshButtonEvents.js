@@ -31,8 +31,6 @@
                         <td>${city.windSpeed}</td>
                         <td>${city.windDeg}</td>
                         <td>${city.description}</td>
-                        <td>${city.dayOfWeek}</td>
-                        
                     </tr>
                 `);
             $("#iconInfo p").html(`

@@ -1,6 +1,6 @@
 ﻿$("#citySelect").select2({
     ajax: {
-        url: '/Weather/getOneCiteBySelect',
+        url: '/Weather/getCitiesList',
         dataType: 'json',
         delay: 250,
         data: function (params) {
@@ -47,6 +47,7 @@
 });
 
 $("#citySelect").on("select2:select", function (e) {
+    $("#waitingIcon").show();
     let data = e.params.data;
     let unitMetric = $("#systemChoose").select2('data')[0];
     let setUnitSystem;
@@ -90,9 +91,11 @@ $("#citySelect").on("select2:select", function (e) {
                 `);
             $("#refreshButton").prop('disabled', false);
             $("#refreshButton").css('background-color', 'green');
+            $("#waitingIcon").hide();
         },
         error: function (err) {
             console.error(err);
+            $("#waitingIcon").hide();
         }
     });
 });

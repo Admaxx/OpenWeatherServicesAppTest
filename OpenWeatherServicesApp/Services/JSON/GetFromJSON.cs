@@ -16,8 +16,7 @@ namespace OpenWeatherServicesApp.Services.JSON
 
         public IEnumerable<CityDto> Search(string? term, int skip, int take, string country = "")
         {
-            using var fs = File.OpenRead(_filePath);
-            using var sr = new StreamReader(fs);
+            using var sr = new StreamReader(_filePath);
             using var reader = new JsonTextReader(sr);
             var serializer = new JsonSerializer();
 

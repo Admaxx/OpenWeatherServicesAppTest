@@ -16,6 +16,8 @@ builder.Services.Configure<APIKeys>(
 
 builder.Services.AddScoped<WeatherDBContext>();
 builder.Services.AddScoped<mainClass>();
+builder.Services.AddScoped<HttpClient>();
+
 builder.Services.AddScoped<IWindDirection, WindDirection>();
 builder.Services.AddScoped<IGetFromJSON, GetFromJSON>();
 builder.Services.AddScoped<IDaysOfWeek, DaysOfWeek>();
