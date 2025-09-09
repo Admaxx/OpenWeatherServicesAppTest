@@ -1,11 +1,7 @@
 ﻿<head>
-    <link rel="stylesheet" type="text/css" href="css/btnStyles.css">
+    <link rel="stylesheet" type="text/css" href="./btnStyles.css">
 </head>
 
-
-@{
-    ViewData["Title"] = "Serwis pogodowy:";
-}
 <label>Pogoda dla: 
     <p></p>
 </label>
@@ -34,8 +30,15 @@
             </th>
         </tr>
      </thead>
-     <tbody></tbody>
+     <tbody><div id="waitingIcon"><img src="css/Icons/wait.gif" alt="Proszę czekać..." /></div></tbody>
 </table>
+<style>
+#waitingIcon {
+    text-align: center;
+}
+
+}
+</style>
 @section Scripts
 {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,8 +46,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="js/onLoad.js"></script>
-    <script src="js/citySelectEvents.js"></script>
     <script src="js/systemChooseEvents.js"></script>
     <script src="js/countryChooseEvents.js"></script>
     <script src="js/refreshButtonEvents.js"></script>
+    <script src="js/citySelectEvents.js"></script>
 }
