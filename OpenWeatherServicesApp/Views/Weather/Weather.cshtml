@@ -1,5 +1,5 @@
 ﻿<head>
-    <link rel="stylesheet" type="text/css" href="./btnStyles.css">
+    <link rel="stylesheet" href="css/btnStyles.css">
 </head>
 
 <label>Pogoda dla: 
@@ -8,7 +8,7 @@
 <select class="form-select" id="citySelect" style="width:300px;"></select>
 <select class="form-select" id="systemChoose" style="width:300px;"></select>
 <select class="form-select" id="countryChoose" style="width:300px;"></select>
-<button class="btn" id = "refreshButton" ><i class="fa fa-refresh"></i></button>
+<button class="btn" id="refreshButton" ><i class="fa fa-refresh" id="refreshButton"></i></button>
 <div id = "iconInfo">
    <p></p>
 </div>
@@ -32,13 +32,6 @@
      </thead>
      <tbody><div id="waitingIcon"><img src="css/Icons/wait.gif" alt="Proszę czekać..." /></div></tbody>
 </table>
-<style>
-#waitingIcon {
-    text-align: center;
-}
-
-}
-</style>
 @section Scripts
 {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

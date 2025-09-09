@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\views\\weather\\weather.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\onload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\onload.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\refreshbuttonevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\refreshbuttonevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\css\\btnstyles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\wwwroot\\js\\cityselectevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\wwwroot\\js\\cityselectevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|c:\\users\\jakub\\desktop\\github\\openweatherserviceapp\\openweatherservicesapp\\services\\json\\getfromjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6EBE9E-A5CE-4225-8537-41DB714F188D}|OpenWeatherServicesApp\\OpenWeatherServicesApp.csproj|solutionrelative:openweatherservicesapp\\services\\json\\getfromjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "OpenWeatherServicesApp\\Controllers\\WeatherController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwF0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAawE4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T09:31:51.575Z",
               "IsPinned": true,
@@ -68,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "btnStyles.css",
               "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\css\\btnStyles.css",
               "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\css\\btnStyles.css",
@@ -76,33 +68,7 @@
               "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\css\\btnStyles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-09T16:43:16.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "refreshButtonEvents.js",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
-              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\refreshButtonEvents.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-09T16:21:10.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "onLoad.js",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\onLoad.js",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\onLoad.js",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\onLoad.js",
-              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\onLoad.js",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-09T15:52:27.675Z",
+              "WhenOpened": "2025-09-09T17:18:04.112Z",
               "EditorCaption": ""
             },
             {
@@ -113,22 +79,23 @@
               "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
               "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
               "RelativeToolTip": "OpenWeatherServicesApp\\Views\\Weather\\Weather.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-09T16:16:01.504Z",
+              "WhenOpened": "2025-09-09T17:17:39.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "citySelectEvents.js",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
-              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
-              "RelativeToolTip": "OpenWeatherServicesApp\\wwwroot\\js\\citySelectEvents.js",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-09T15:51:30.913Z"
+              "DocumentIndex": 3,
+              "Title": "GetFromJSON.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Services\\JSON\\GetFromJSON.cs",
+              "RelativeDocumentMoniker": "OpenWeatherServicesApp\\Services\\JSON\\GetFromJSON.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\GitHub\\OpenWeatherServiceApp\\OpenWeatherServicesApp\\Services\\JSON\\GetFromJSON.cs",
+              "RelativeToolTip": "OpenWeatherServicesApp\\Services\\JSON\\GetFromJSON.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T17:00:31.675Z",
+              "EditorCaption": ""
             }
           ]
         }
